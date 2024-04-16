@@ -35,15 +35,16 @@ Before you begin, ensure your system meets the following requirements:
 - Unix-like operating system (Linux, MacOS)
 - `curl` or `wget` installed
 - `dos2unix` installed (optional, required only if you encounter script execution issues due to Windows line endings)
-- 
+
+
+## Installation
+To install `pingpong.sh`, follow these steps:
+
 ## Windows Installation
 
 For Windows users, download the Pingpong installation file from the following link:
 
 [Download Pingpong for Windows](https://pingpong-build.s3.ap-southeast-1.amazonaws.com)
-
-## Installation
-To install `pingpong.sh`, follow these steps:
 
  **Run For linux:**
    ```bash
