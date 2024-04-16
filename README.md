@@ -1,4 +1,4 @@
-# Pingpong.sh
+# Pingpong
 
 ## Description
 `PINGPONG: The Ultimate Game-changer for DePIN!
@@ -37,8 +37,30 @@ Before you begin, ensure your system meets the following requirements:
 - `dos2unix` installed (optional, required only if you encounter script execution issues due to Windows line endings)
 
 
+# Login Instructions
+
+Follow these steps to log in using your Google account at Harvester:
+
+1. **Navigate to the Login Page**
+
+   Click on the following link to access the Harvester login page:
+   
+   [Harvester Login Page](https://harvester.pingpong.build/login)
+
+2. **Login Using Google**
+
+   Once you're on the login page, look for the option to "Login with Google" and click on it. Follow the prompts to select your Google account and authenticate.
+
+3. **Complete the Authentication**
+
+   Complete the Google authentication steps as required. You might need to enter your Google password or confirm your identity through two-factor authentication if it's enabled on your account.
+
+4. **Access Harvester**
+
+   After successful authentication, you will be redirected back to Harvester and logged in to use its features.
+
 ## Installation
-To install `pingpong.sh`, follow these steps:
+To install follow these steps:
 
 ## Windows Installation
 # Docker Installation on Windows
