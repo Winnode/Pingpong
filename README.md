@@ -125,6 +125,9 @@ https://pingpong-build.s3.ap-southeast-1.amazonaws.com
 
 ![Device ID Instructions](https://raw.githubusercontent.com/Winnode/Pingpong/main/device%20ID.png "Device ID")
 
+## Run
+
+![Run Interface](https://github.com/Winnode/Pingpong/blob/main/Run.png "Run Command Interface")
 
 
 ## Give
