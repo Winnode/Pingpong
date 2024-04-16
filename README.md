@@ -41,10 +41,55 @@ Before you begin, ensure your system meets the following requirements:
 To install `pingpong.sh`, follow these steps:
 
 ## Windows Installation
+# Docker Installation on Windows
 
-For Windows users, download the Pingpong installation file from the following link:
+This guide provides detailed steps on how to install Docker Desktop on Windows systems.
+
+## Prerequisites
+
+Before you begin, make sure your Windows system meets the following requirements:
+
+- Windows 10 64-bit: Pro, Enterprise, or Education (Build 15063 or later).
+- Hyper-V and Containers Windows features must be enabled.
+- The machine must have BIOS-level hardware virtualization support.
+
+## Installation Steps
+
+1. **Download Docker Desktop for Windows**
+
+   Visit the Docker Hub and download the latest version of Docker Desktop for Windows:
+
+   [Download Docker Desktop for Windows](https://hub.docker.com/editions/community/docker-ce-desktop-windows/)
+
+2. **Run the Installer**
+
+   Once the download is complete, run the installer. During the installation process, ensure the "Enable Hyper-V Windows Features" option is selected to enable the required features automatically.
+
+3. **Follow the Setup Wizard**
+
+   Follow the on-screen instructions provided by the Docker Desktop Installer to complete the installation.
+
+4. **Restart Your Computer**
+
+   After the installation is complete, restart your computer to ensure all necessary changes take effect.
+
+5. **Start Docker Desktop**
+
+   After your computer has restarted, launch Docker Desktop from the Start Menu or Desktop shortcut. The first time Docker starts, it may take a few minutes to initialize.
+
+6. **Verify Installation**
+
+   To check if Docker has been installed correctly, open a command prompt or PowerShell window and type the following command:
+
+   ```bash
+   docker --version
+
+## For Windows users, download the Pingpong installation file from the following link:
 
 [Download Pingpong for Windows](https://pingpong-build.s3.ap-southeast-1.amazonaws.com)
+
+
+
 
  **Run For linux:**
    ```bash
