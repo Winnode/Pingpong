@@ -84,14 +84,13 @@ Before you begin, make sure your Windows system meets the following requirements
    ```bash
    docker --version
 
-## For Windows users, download the Pingpong installation file from the following link:
+## Run Windows users, download the Pingpong installation file from the following link:
 
 [Download Pingpong for Windows](https://pingpong-build.s3.ap-southeast-1.amazonaws.com)
 
 
 
-
- **Run For linux:**
+ ## Run For linux user : 
    ```bash
    curl -o pingpong.sh https://raw.githubusercontent.com/Winnode/Pingpong/main/pingpong.sh && sed -i 's/\r$//' pingpong.sh && chmod +x pingpong.sh && ./pingpong.sh
    ```
