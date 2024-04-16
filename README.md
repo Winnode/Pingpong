@@ -126,3 +126,8 @@ https://pingpong-build.s3.ap-southeast-1.amazonaws.com
 ![Device ID Instructions](https://raw.githubusercontent.com/Winnode/Pingpong/main/device%20ID.png "Device ID")
 
 
+
+## Give
+- [Follow kami di Twitter](https://twitter.com/Winnode)
+- [Follow kami di GitHub](https://github.com/Winnode)
+
