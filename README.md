@@ -42,8 +42,9 @@ To install `pingpong.sh`, follow these steps:
  **Run For linux:**
    ```bash
    curl -o pingpong.sh https://raw.githubusercontent.com/Winnode/Pingpong/main/pingpong.sh && sed -i 's/\r$//' pingpong.sh && chmod +x pingpong.sh && ./pingpong.sh
+   ```
+##  input Deviced Id
 
-## input Deviced Id
+![Device ID Instructions](https://raw.githubusercontent.com/Winnode/Pingpong/main/device%20ID.png "Device ID")
 
-![Device ID](https://raw.githubusercontent.com/Winnode/Pingpong/main/device%20ID.png "Device ID Example")
 
