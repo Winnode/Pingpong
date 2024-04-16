@@ -1,4 +1,4 @@
-# Pingpong
+# Pingpong Mining Narasi DEPIN
 
 ## Description
 `PINGPONG: The Ultimate Game-changer for DePIN!
