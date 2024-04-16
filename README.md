@@ -1,4 +1,5 @@
 # Pingpong Mining Narasi DEPIN
+![Dashboard Interface](https://github.com/Winnode/Pingpong/blob/main/dashboard.png "Dashboard")
 
 ## Description
 `PINGPONG: The Ultimate Game-changer for DePIN!
