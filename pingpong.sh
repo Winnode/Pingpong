@@ -54,6 +54,16 @@ else
     echo "Docker is already installed. Skipping installation..."
 fi
 
+# Check if screen is installed
+if ! command -v screen &> /dev/null
+then
+    # Step 10: Install screen if not installed
+    echo "Screen is not installed. Installing screen..."
+    sudo apt install screen -y
+else
+    echo "Screen is already installed. Skipping installation..."
+fi
+
 # Always execute file download
 echo "Downloading PINGPONG file..."
 curl -L https://pingpong-build.s3.ap-southeast-1.amazonaws.com/linux/latest/PINGPONG -o PINGPONG
