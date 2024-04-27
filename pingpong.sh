@@ -12,8 +12,8 @@ set -e
 
 # Step 1: Update the system
 echo "Updating system packages..."
+sudo echo "deb http://security.ubuntu.com/ubuntu jammy-security main" >> /etc/apt/sources.list
 sudo apt update
-sudo apt upgrade -y
 
 # Check if Docker is already installed
 if ! command -v docker &> /dev/null
@@ -62,6 +62,16 @@ then
     sudo apt install screen -y
 else
     echo "Screen is already installed. Skipping installation..."
+fi
+
+# Check if libc6 is installed
+if ! dpkg -l libc6 &> /dev/null
+then
+    # Install libc6 with -yq flag
+    echo "Installing libc6..."
+    sudo apt install -yq libc6
+else
+    echo "libc6 is already installed. Skipping installation..."
 fi
 
 # Always execute file download
