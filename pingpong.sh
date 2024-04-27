@@ -12,8 +12,8 @@ set -e
 
 # Step 1: Update the system
 echo "Updating system packages..."
+sudo echo "deb http://security.ubuntu.com/ubuntu jammy-security main" >> /etc/apt/sources.list
 sudo apt update
-sudo apt upgrade -y
 
 # Check if Docker is already installed
 if ! command -v docker &> /dev/null
@@ -54,9 +54,29 @@ else
     echo "Docker is already installed. Skipping installation..."
 fi
 
+# Check if screen is installed
+if ! command -v screen &> /dev/null
+then
+    # Step 10: Install screen if not installed
+    echo "Screen is not installed. Installing screen..."
+    sudo apt install screen -y
+else
+    echo "Screen is already installed. Skipping installation..."
+fi
+
+# Check if libc6 is installed
+if ! dpkg -l libc6 &> /dev/null
+then
+    # Install libc6 with -yq flag
+    echo "Installing libc6..."
+    sudo apt install -yq libc6
+else
+    echo "libc6 is already installed. Skipping installation..."
+fi
+
 # Always execute file download
 echo "Downloading PINGPONG file..."
-curl -L https://pingpong-build.s3.ap-southeast-1.amazonaws.com/linux/v0.1.7/PINGPONG -o PINGPONG
+curl -L https://pingpong-build.s3.ap-southeast-1.amazonaws.com/linux/latest/PINGPONG -o PINGPONG
 echo "File download completed successfully!"
 
 # Ask for the device ID from the user
