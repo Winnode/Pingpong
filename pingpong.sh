@@ -56,7 +56,7 @@ fi
 
 # Always execute file download
 echo "Downloading PINGPONG file..."
-curl -L https://pingpong-build.s3.ap-southeast-1.amazonaws.com/linux/v0.1.7/PINGPONG -o PINGPONG
+curl -L https://pingpong-build.s3.ap-southeast-1.amazonaws.com/linux/latest/PINGPONG -o PINGPONG
 echo "File download completed successfully!"
 
 # Ask for the device ID from the user
