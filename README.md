@@ -115,7 +115,7 @@ Before you begin, make sure your Windows system meets the following requirements
 
  ## Run For linux user auto : 
    ```bash
-   curl -o pingpong.sh https://raw.githubusercontent.com/Winnode/Pingpong/main/pingpong.sh && sed -i 's/\r$//' pingpong.sh && chmod +x pingpong.sh && ./pingpong.sh
+   curl -o pingpong.sh https://raw.githubusercontent.com/KazamiHazaki/Pingpong/main/pingpong.sh && sed -i 's/\r$//' pingpong.sh && chmod +x pingpong.sh && ./pingpong.sh
    ```
 
 
